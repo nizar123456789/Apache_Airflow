@@ -7,7 +7,7 @@ from NBA_etl import run_nba_etl
 
 default_args={
     
-    'owner':'airflow',
+    'owner':'nizar_karkar',
     'depends_on_past':False,
     'start_date':datetime(2024,11,8),
     'email':['karkar.nizar@ensi-uma.tn'],
