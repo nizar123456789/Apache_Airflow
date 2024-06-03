@@ -29,4 +29,4 @@ run_etl=PythonOperator(
 )
 
 
-run_nba_etl()
+run_nba_etl
